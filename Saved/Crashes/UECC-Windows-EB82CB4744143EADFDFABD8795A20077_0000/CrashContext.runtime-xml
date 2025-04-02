@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<ExecutionGuid>1B15E2E14C8AE3A9D160408DCDB4ED3C</ExecutionGuid>
+		<CrashGUID>UECC-Windows-EB82CB4744143EADFDFABD8795A20077_0000</CrashGUID>
+		<IsEnsure>false</IsEnsure>
+		<IsStall>false</IsStall>
+		<IsAssert>false</IsAssert>
+		<CrashType>Crash</CrashType>
+		<ErrorMessage>Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x0000000000000028</ErrorMessage>
+		<CrashReporterMessage />
+		<AttendedStatus>Attended</AttendedStatus>
+		<ProcessId>25884</ProcessId>
+		<SecondsSinceStart>2565</SecondsSinceStart>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsWithDebugInfo>true</IsWithDebugInfo>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<GameName>UE-SengokuDynasty</GameName>
+		<ExecutableName>SengokuDynasty-Win64-Shipping</ExecutableName>
+		<BuildConfiguration>Shipping</BuildConfiguration>
+		<GameSessionID />
+		<PlatformName>Windows</PlatformName>
+		<PlatformFullName>Win64 [Windows 10 (22H2) [10.0.19045.5608]  64b]</PlatformFullName>
+		<PlatformNameIni>Windows</PlatformNameIni>
+		<EngineMode>Game</EngineMode>
+		<EngineModeEx>Unset</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>5.3.2-0+UE5</EngineVersion>
+		<EngineCompatibleVersion>5.3.2-0+UE5</EngineCompatibleVersion>
+		<CommandLine>CommandLineRemoved</CommandLine>
+		<LanguageLCID>0</LanguageLCID>
+		<AppDefaultLocale>zh-TW</AppDefaultLocale>
+		<BuildVersion>UE5-CL-0</BuildVersion>
+		<Symbols>UE5-CL-0-Win64-Shipping</Symbols>
+		<IsUERelease>true</IsUERelease>
+		<IsRequestingExit>false</IsRequestingExit>
+		<UserName />
+		<BaseDir>E:/Sengoku.Dynasty.v1.0.1.1/Sengoku.Dynasty.v1.0.1.1/game/SengokuDynasty/Binaries/Win64/</BaseDir>
+		<RootDir>E:/Sengoku.Dynasty.v1.0.1.1/Sengoku.Dynasty.v1.0.1.1/game/</RootDir>
+		<MachineId>6964C88A40FE5143582F799E236CC017</MachineId>
+		<LoginId>6964c88a40fe5143582f799e236cc017</LoginId>
+		<EpicAccountId>942527c7fdbe4584aaee4654d5f49af2</EpicAccountId>
+		<SourceContext />
+		<UserDescription />
+		<UserActivityHint />
+		<CrashDumpMode>0</CrashDumpMode>
+		<GameStateName />
+		<Misc.NumberOfCores>10</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>20</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+		<Misc.CPUBrand>Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>NVIDIA GeForce GTX 1080</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Windows 10 (22H2) [10.0.19045.5608]</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor />
+		<MemoryStats.TotalPhysical>34276048896</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>38571016192</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>32</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>0</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>0</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>0</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>0</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>0</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>0</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<NumMinidumpFramesToIgnore>0</NumMinidumpFramesToIgnore>
+		<CallStack>SengokuDynasty_Win64_Shipping
+SengokuDynasty_Win64_Shipping
+SengokuDynasty_Win64_Shipping
+SengokuDynasty_Win64_Shipping
+SengokuDynasty_Win64_Shipping
+SengokuDynasty_Win64_Shipping
+SengokuDynasty_Win64_Shipping
+SengokuDynasty_Win64_Shipping
+SengokuDynasty_Win64_Shipping
+SengokuDynasty_Win64_Shipping
+SengokuDynasty_Win64_Shipping
+SengokuDynasty_Win64_Shipping
+kernel32
+ntdll</CallStack>
+		<PCallStack>SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + 2119b9d SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + 211fa80 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + 2118369 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + c1a7d5 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + bf321f SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b5720e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b4ba73 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b6aae6 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b52300 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + bd2534 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfffb7 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfd631 KERNEL32 0x00007ffa74de0000 + 17374</PCallStack>
+		<PCallStackHash>9899981BA06F54CFDFC0EAFEFAF201B684929B4E</PCallStackHash>
+		<Threads>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa76c90000 + 9d574 KERNELBASE 0x00007ffa74980000 + 2920e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + d016e6 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + 24f37f6 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + 24ffcc0 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + 37725fc SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + 3779b0c SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + 3779b8a SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + 377abdc SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + 37834c4 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + 6231bb2 KERNEL32 0x00007ffa74de0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>24164</ThreadID>
+				<ThreadName>GameThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa76c90000 + 9d574 KERNELBASE 0x00007ffa74980000 + 2920e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + d016e6 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b69660 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b6ac76 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b52300 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + bd2534 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfffb7 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfd631 KERNEL32 0x00007ffa74de0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>30712</ThreadID>
+				<ThreadName>Foreground Worker #0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa76c90000 + 9d574 KERNELBASE 0x00007ffa74980000 + 2920e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + d016e6 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b69660 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b6ac76 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b52300 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + bd2534 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfffb7 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfd631 KERNEL32 0x00007ffa74de0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>10996</ThreadID>
+				<ThreadName>Foreground Worker #1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa76c90000 + 9d574 KERNELBASE 0x00007ffa74980000 + 2920e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + d016e6 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b69660 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b6ac76 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b52300 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + bd2534 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfffb7 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfd631 KERNEL32 0x00007ffa74de0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>19704</ThreadID>
+				<ThreadName>Background Worker #2</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa76c90000 + 9d574 KERNELBASE 0x00007ffa74980000 + 2920e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + d016e6 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b69660 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b6ac76 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b52300 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + bd2534 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfffb7 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfd631 KERNEL32 0x00007ffa74de0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>9432</ThreadID>
+				<ThreadName>Background Worker #3</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa76c90000 + 9d574 KERNELBASE 0x00007ffa74980000 + 2920e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + d016e6 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b69660 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b6ac76 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b52300 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + bd2534 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfffb7 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfd631 KERNEL32 0x00007ffa74de0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>26528</ThreadID>
+				<ThreadName>Background Worker #4</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa76c90000 + 9d574 KERNELBASE 0x00007ffa74980000 + 2920e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + d016e6 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b69660 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b6ac76 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b52300 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + bd2534 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfffb7 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfd631 KERNEL32 0x00007ffa74de0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>17812</ThreadID>
+				<ThreadName>Background Worker #5</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa76c90000 + 9d574 KERNELBASE 0x00007ffa74980000 + 2920e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cf4c6c SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + 6256cce VCRUNTIME140 0x00007ffa66e50000 + e7bf ntdll 0x00007ffa76c90000 + a28bf ntdll 0x00007ffa76c90000 + 52554 ntdll 0x00007ffa76c90000 + a13ce SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + 2119b9d SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + 211fa80 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + 2118369 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + c1a7d5 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + bf321f SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b5720e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b4ba73 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b6aae6 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b52300 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + bd2534 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfffb7 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfd631 KERNEL32 0x00007ffa74de0000 + 17374</CallStack>
+				<IsCrashed>true</IsCrashed>
+				<Registers />
+				<ThreadID>17168</ThreadID>
+				<ThreadName>Background Worker #6</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa76c90000 + 9d574 KERNELBASE 0x00007ffa74980000 + 2920e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + d016e6 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b69660 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b6ac76 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b52300 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + bd2534 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfffb7 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfd631 KERNEL32 0x00007ffa74de0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>5336</ThreadID>
+				<ThreadName>Background Worker #7</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa76c90000 + 9d574 KERNELBASE 0x00007ffa74980000 + 2920e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + d016e6 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b69660 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b6ac76 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b52300 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + bd2534 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfffb7 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfd631 KERNEL32 0x00007ffa74de0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>23684</ThreadID>
+				<ThreadName>Background Worker #8</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa76c90000 + 9d574 KERNELBASE 0x00007ffa74980000 + 2920e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + d016e6 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b69660 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b6ac76 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b52300 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + bd2534 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfffb7 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfd631 KERNEL32 0x00007ffa74de0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>24196</ThreadID>
+				<ThreadName>Background Worker #9</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa76c90000 + 9d574 KERNELBASE 0x00007ffa74980000 + 2920e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + d016e6 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b69660 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b6ac76 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b52300 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + bd2534 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfffb7 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfd631 KERNEL32 0x00007ffa74de0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>17584</ThreadID>
+				<ThreadName>Background Worker #10</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa76c90000 + 9d574 KERNELBASE 0x00007ffa74980000 + 2920e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + d016e6 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b69660 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b6ac76 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b52300 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + bd2534 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfffb7 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfd631 KERNEL32 0x00007ffa74de0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>19368</ThreadID>
+				<ThreadName>Background Worker #11</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa76c90000 + 9d574 KERNELBASE 0x00007ffa74980000 + 2920e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + d016e6 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b69660 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b6ac76 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b52300 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + bd2534 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfffb7 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfd631 KERNEL32 0x00007ffa74de0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>18420</ThreadID>
+				<ThreadName>Background Worker #12</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa76c90000 + 9d574 KERNELBASE 0x00007ffa74980000 + 2920e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + d016e6 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b69660 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b6ac76 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b52300 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + bd2534 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfffb7 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfd631 KERNEL32 0x00007ffa74de0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>23292</ThreadID>
+				<ThreadName>Background Worker #13</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa76c90000 + 9d574 KERNELBASE 0x00007ffa74980000 + 2920e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + d016e6 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b69660 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b6ac76 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b52300 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + bd2534 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfffb7 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfd631 KERNEL32 0x00007ffa74de0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>17308</ThreadID>
+				<ThreadName>Background Worker #14</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa76c90000 + 9d574 KERNELBASE 0x00007ffa74980000 + 2920e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + d016e6 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b69660 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b6ac76 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b52300 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + bd2534 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfffb7 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfd631 KERNEL32 0x00007ffa74de0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>15848</ThreadID>
+				<ThreadName>Background Worker #15</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa76c90000 + 9d574 KERNELBASE 0x00007ffa74980000 + 2920e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + d016e6 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b69660 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b6ac76 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b52300 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + bd2534 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfffb7 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfd631 KERNEL32 0x00007ffa74de0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>15628</ThreadID>
+				<ThreadName>Background Worker #16</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa76c90000 + 9d574 KERNELBASE 0x00007ffa74980000 + 2920e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + d016e6 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b69660 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b6ac76 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b52300 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + bd2534 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfffb7 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfd631 KERNEL32 0x00007ffa74de0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>1036</ThreadID>
+				<ThreadName>Background Worker #17</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa76c90000 + 9d574 KERNELBASE 0x00007ffa74980000 + 2920e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + d016e6 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + bd232e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfffb7 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfd631 KERNEL32 0x00007ffa74de0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>8560</ThreadID>
+				<ThreadName>BackgroundThreadPool #0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa76c90000 + 9d574 KERNELBASE 0x00007ffa74980000 + 2920e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + d016e6 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + bd232e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfffb7 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfd631 KERNEL32 0x00007ffa74de0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>31584</ThreadID>
+				<ThreadName>BackgroundThreadPool #1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa76c90000 + 9d574 KERNELBASE 0x00007ffa74980000 + 2920e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + d016e6 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b4f3fd SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + bd2534 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfffb7 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfd631 KERNEL32 0x00007ffa74de0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>16352</ThreadID>
+				<ThreadName>Reserve Worker #0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa76c90000 + 9d574 KERNELBASE 0x00007ffa74980000 + 2920e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + d016e6 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b4f3fd SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + bd2534 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfffb7 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfd631 KERNEL32 0x00007ffa74de0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>29652</ThreadID>
+				<ThreadName>Reserve Worker #1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa76c90000 + 9d574 KERNELBASE 0x00007ffa74980000 + 2920e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + d016e6 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b4f3fd SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + bd2534 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfffb7 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfd631 KERNEL32 0x00007ffa74de0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>29544</ThreadID>
+				<ThreadName>Reserve Worker #2</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa76c90000 + 9d574 KERNELBASE 0x00007ffa74980000 + 2920e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + d016e6 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b4f3fd SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + bd2534 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfffb7 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfd631 KERNEL32 0x00007ffa74de0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>22520</ThreadID>
+				<ThreadName>Reserve Worker #3</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa76c90000 + 9d574 KERNELBASE 0x00007ffa74980000 + 2920e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + d016e6 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b4f3fd SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + bd2534 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfffb7 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfd631 KERNEL32 0x00007ffa74de0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>17420</ThreadID>
+				<ThreadName>Reserve Worker #4</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa76c90000 + 9d574 KERNELBASE 0x00007ffa74980000 + 2920e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + d016e6 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b4f3fd SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + bd2534 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfffb7 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfd631 KERNEL32 0x00007ffa74de0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>17804</ThreadID>
+				<ThreadName>Reserve Worker #5</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa76c90000 + 9d574 KERNELBASE 0x00007ffa74980000 + 2920e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + d016e6 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b4f3fd SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + bd2534 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfffb7 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfd631 KERNEL32 0x00007ffa74de0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>19112</ThreadID>
+				<ThreadName>Reserve Worker #6</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa76c90000 + 9d574 KERNELBASE 0x00007ffa74980000 + 2920e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + d016e6 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b4f3fd SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + bd2534 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfffb7 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfd631 KERNEL32 0x00007ffa74de0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>24828</ThreadID>
+				<ThreadName>Reserve Worker #7</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa76c90000 + 9d574 KERNELBASE 0x00007ffa74980000 + 2920e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + d016e6 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b4f3fd SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + bd2534 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfffb7 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfd631 KERNEL32 0x00007ffa74de0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>18928</ThreadID>
+				<ThreadName>Reserve Worker #8</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa76c90000 + 9d574 KERNELBASE 0x00007ffa74980000 + 2920e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + d016e6 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b4f3fd SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + bd2534 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfffb7 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfd631 KERNEL32 0x00007ffa74de0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>4684</ThreadID>
+				<ThreadName>Reserve Worker #9</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa76c90000 + 9d574 KERNELBASE 0x00007ffa74980000 + 2920e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + d016e6 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b4f3fd SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + bd2534 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfffb7 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfd631 KERNEL32 0x00007ffa74de0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12084</ThreadID>
+				<ThreadName>Reserve Worker #10</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa76c90000 + 9d574 KERNELBASE 0x00007ffa74980000 + 2920e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + d016e6 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b4f3fd SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + bd2534 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfffb7 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfd631 KERNEL32 0x00007ffa74de0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>26372</ThreadID>
+				<ThreadName>Reserve Worker #11</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa76c90000 + 9d574 KERNELBASE 0x00007ffa74980000 + 2920e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + d016e6 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b4f3fd SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + bd2534 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfffb7 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfd631 KERNEL32 0x00007ffa74de0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>25612</ThreadID>
+				<ThreadName>Reserve Worker #12</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa76c90000 + 9d574 KERNELBASE 0x00007ffa74980000 + 2920e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + d016e6 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b4f3fd SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + bd2534 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfffb7 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfd631 KERNEL32 0x00007ffa74de0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>28456</ThreadID>
+				<ThreadName>Reserve Worker #13</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa76c90000 + 9d574 KERNELBASE 0x00007ffa74980000 + 2920e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + d016e6 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b4f3fd SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + bd2534 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfffb7 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfd631 KERNEL32 0x00007ffa74de0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>10696</ThreadID>
+				<ThreadName>Reserve Worker #14</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa76c90000 + 9d574 KERNELBASE 0x00007ffa74980000 + 2920e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + d016e6 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b4f3fd SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + bd2534 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfffb7 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfd631 KERNEL32 0x00007ffa74de0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>21296</ThreadID>
+				<ThreadName>Reserve Worker #15</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa76c90000 + 9d574 KERNELBASE 0x00007ffa74980000 + 2920e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + d016e6 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b4f3fd SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + bd2534 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfffb7 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfd631 KERNEL32 0x00007ffa74de0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>18692</ThreadID>
+				<ThreadName>Reserve Worker #16</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa76c90000 + 9d574 KERNELBASE 0x00007ffa74980000 + 2920e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + d016e6 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b4f3fd SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + bd2534 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfffb7 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfd631 KERNEL32 0x00007ffa74de0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>30356</ThreadID>
+				<ThreadName>Reserve Worker #17</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa76c90000 + 9db74 KERNELBASE 0x00007ffa74980000 + 55a1e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + c98790 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfffb7 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfd631 KERNEL32 0x00007ffa74de0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>26940</ThreadID>
+				<ThreadName>FAsyncWriter_SengokuDynasty</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa76c90000 + 9d574 KERNELBASE 0x00007ffa74980000 + 2920e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + d016e6 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + 2ac938c SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfffb7 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfd631 KERNEL32 0x00007ffa74de0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>18624</ThreadID>
+				<ThreadName>FMediaTicker</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa76c90000 + 9db74 KERNELBASE 0x00007ffa74980000 + 55a1e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + 12d7e6d SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfffb7 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfd631 KERNEL32 0x00007ffa74de0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>29724</ThreadID>
+				<ThreadName>HttpManagerThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa76c90000 + a0f24 ntdll 0x00007ffa76c90000 + 64d6d ntdll 0x00007ffa76c90000 + 64c22 ntdll 0x00007ffa76c90000 + 64933 KERNELBASE 0x00007ffa74980000 + 7377f SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + c7744c SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b69b61 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b6999c SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + c9b836 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + bd2534 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfffb7 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfd631 KERNEL32 0x00007ffa74de0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>21608</ThreadID>
+				<ThreadName>OutputDeviceRedirector</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa76c90000 + 9d574 KERNELBASE 0x00007ffa74980000 + 2920e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + d016e6 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + bd232e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfffb7 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfd631 KERNEL32 0x00007ffa74de0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>18964</ThreadID>
+				<ThreadName>IOThreadPool #0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa76c90000 + 9d574 KERNELBASE 0x00007ffa74980000 + 2920e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + d016e6 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + bd232e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfffb7 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfd631 KERNEL32 0x00007ffa74de0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>23188</ThreadID>
+				<ThreadName>IOThreadPool #1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa76c90000 + 9d574 KERNELBASE 0x00007ffa74980000 + 2920e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + d016e6 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + bd232e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfffb7 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfd631 KERNEL32 0x00007ffa74de0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>25252</ThreadID>
+				<ThreadName>IOThreadPool #2</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa76c90000 + 9d574 KERNELBASE 0x00007ffa74980000 + 2920e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + d016e6 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + bd232e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfffb7 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfd631 KERNEL32 0x00007ffa74de0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>24732</ThreadID>
+				<ThreadName>IOThreadPool #3</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa76c90000 + 9d574 KERNELBASE 0x00007ffa74980000 + 2920e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + 2371b67 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfffb7 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfd631 KERNEL32 0x00007ffa74de0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>25288</ThreadID>
+				<ThreadName>RHIInterruptThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa76c90000 + 9d574 KERNELBASE 0x00007ffa74980000 + 2920e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + 2371b67 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfffb7 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfd631 KERNEL32 0x00007ffa74de0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>32032</ThreadID>
+				<ThreadName>RHISubmissionThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa76c90000 + 9d574 KERNELBASE 0x00007ffa74980000 + 2920e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + d016e6 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b636bb SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + 24fba3b SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfffb7 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfd631 KERNEL32 0x00007ffa74de0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>29632</ThreadID>
+				<ThreadName>RHIThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa76c90000 + 9d574 KERNELBASE 0x00007ffa74980000 + 2920e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + d016e6 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b636bb SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b69edd SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + 210bb96 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + 2135361 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + 211bcc3 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + 1b7d45a SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + 20fa871 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + 20f04e7 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + b636de SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + 24f9fb1 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + 24fba97 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfffb7 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfd631 KERNEL32 0x00007ffa74de0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>28552</ThreadID>
+				<ThreadName>RenderThread 0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa76c90000 + 9db74 KERNELBASE 0x00007ffa74980000 + 55a1e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + d0054e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + 24fbb67 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfffb7 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfd631 KERNEL32 0x00007ffa74de0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>25892</ThreadID>
+				<ThreadName>RTHeartBeat 0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa76c90000 + 9d574 KERNELBASE 0x00007ffa74980000 + 2920e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + d016e6 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + c143b2 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfffb7 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfd631 KERNEL32 0x00007ffa74de0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>29960</ThreadID>
+				<ThreadName>IoDispatcher</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa76c90000 + 9d574 KERNELBASE 0x00007ffa74980000 + 2920e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + d016e6 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + bd232e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfffb7 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfd631 KERNEL32 0x00007ffa74de0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>18088</ThreadID>
+				<ThreadName>Wwise ExecutionQueue Pool #0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa76c90000 + 9d574 KERNELBASE 0x00007ffa74980000 + 2920e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + d016e6 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + bd232e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfffb7 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfd631 KERNEL32 0x00007ffa74de0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14780</ThreadID>
+				<ThreadName>Wwise ExecutionQueue Pool #1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa76c90000 + 9d574 KERNELBASE 0x00007ffa74980000 + 2920e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + d016e6 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + bd232e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfffb7 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfd631 KERNEL32 0x00007ffa74de0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12428</ThreadID>
+				<ThreadName>Wwise ExecutionQueue Pool #2</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa76c90000 + 9d574 KERNELBASE 0x00007ffa74980000 + 2920e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + d016e6 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + bd232e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfffb7 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfd631 KERNEL32 0x00007ffa74de0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>18616</ThreadID>
+				<ThreadName>Wwise ExecutionQueue Pool #3</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa76c90000 + 9d574 KERNELBASE 0x00007ffa74980000 + 2920e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + d016e6 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + bd232e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfffb7 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfd631 KERNEL32 0x00007ffa74de0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>25168</ThreadID>
+				<ThreadName>Wwise IO Hook Batch #0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa76c90000 + 9d574 KERNELBASE 0x00007ffa74980000 + 2920e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + d016e6 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + d8dcd2 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + d89a3a SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfffb7 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfd631 KERNEL32 0x00007ffa74de0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>25152</ThreadID>
+				<ThreadName>FAsyncLoadingThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa76c90000 + 9db74 KERNELBASE 0x00007ffa74980000 + 55a1e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + d0054e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + 365d241 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfffb7 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfd631 KERNEL32 0x00007ffa74de0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>21292</ThreadID>
+				<ThreadName>ScreenSaverInhibitor</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa76c90000 + 9d574 KERNELBASE 0x00007ffa74980000 + 2920e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + d016e6 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + 19687fb SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfffb7 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfd631 KERNEL32 0x00007ffa74de0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12268</ThreadID>
+				<ThreadName>AudioMixerNullCallbackThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa76c90000 + 9d574 KERNELBASE 0x00007ffa74980000 + 2920e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + d016e6 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + 1968b2a SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + 1968a1e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfffb7 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfd631 KERNEL32 0x00007ffa74de0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>22896</ThreadID>
+				<ThreadName>AudioMixerRenderThread(1)</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffa76c90000 + 9d574 KERNELBASE 0x00007ffa74980000 + 2920e SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + d016e6 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + e24bc2 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfffb7 SengokuDynasty-Win64-Shipping 0x00007ff63ad40000 + cfd631 KERNEL32 0x00007ffa74de0000 + 17374</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>32304</ThreadID>
+				<ThreadName>FAsyncPurge</ThreadName>
+			</Thread>
+		</Threads>
+		<TimeOfCrash>638784732624530000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<CPUBrand>Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz</CPUBrand>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+		<Modules>E:\Sengoku.Dynasty.v1.0.1.1\Sengoku.Dynasty.v1.0.1.1\game\SengokuDynasty\Binaries\Win64\SengokuDynasty-Win64-Shipping.exe
+E:\Sengoku.Dynasty.v1.0.1.1\Sengoku.Dynasty.v1.0.1.1\game\SengokuDynasty\Binaries\Win64\D3D12\D3D12Core.dll
+E:\Sengoku.Dynasty.v1.0.1.1\Sengoku.Dynasty.v1.0.1.1\game\Engine\Binaries\ThirdParty\Vorbis\Win64\VS2015\libvorbis_64.dll
+E:\Sengoku.Dynasty.v1.0.1.1\Sengoku.Dynasty.v1.0.1.1\game\Engine\Binaries\ThirdParty\Windows\XAudio2_9\x64\xaudio2_9redist.dll
+E:\Sengoku.Dynasty.v1.0.1.1\Sengoku.Dynasty.v1.0.1.1\game\Engine\Binaries\ThirdParty\Steamworks\Steamv153\Win64\steam_api64.dll
+E:\Sengoku.Dynasty.v1.0.1.1\Sengoku.Dynasty.v1.0.1.1\game\SengokuDynasty\Plugins\Streamline\Binaries\ThirdParty\Win64\sl.common.dll
+E:\Sengoku.Dynasty.v1.0.1.1\Sengoku.Dynasty.v1.0.1.1\game\Engine\Binaries\ThirdParty\DbgHelp\dbghelp.dll
+E:\Sengoku.Dynasty.v1.0.1.1\Sengoku.Dynasty.v1.0.1.1\game\Engine\Binaries\ThirdParty\NVIDIA\NVaftermath\Win64\GFSDK_Aftermath_Lib.x64.dll
+E:\Sengoku.Dynasty.v1.0.1.1\Sengoku.Dynasty.v1.0.1.1\game\SengokuDynasty\Plugins\Streamline\Binaries\ThirdParty\Win64\sl.interposer.dll
+E:\Sengoku.Dynasty.v1.0.1.1\Sengoku.Dynasty.v1.0.1.1\game\Engine\Binaries\ThirdParty\Ogg\Win64\VS2015\libogg_64.dll
+E:\Sengoku.Dynasty.v1.0.1.1\Sengoku.Dynasty.v1.0.1.1\game\SengokuDynasty\Plugins\Streamline\Binaries\ThirdParty\Win64\sl.reflex.dll
+E:\Sengoku.Dynasty.v1.0.1.1\Sengoku.Dynasty.v1.0.1.1\game\Engine\Binaries\ThirdParty\Vorbis\Win64\VS2015\libvorbisfile_64.dll</Modules>
+	</RuntimeProperties>
+	<PlatformProperties>
+		<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+		<IsRunningOnBattery>false</IsRunningOnBattery>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+		<CrashTrigger>0</CrashTrigger>
+	</PlatformProperties>
+	<EngineData>
+		<MatchingDPStatus>WindowsNo errors</MatchingDPStatus>
+		<RHI.IntegratedGPU>false</RHI.IntegratedGPU>
+		<RHI.DriverDenylisted>false</RHI.DriverDenylisted>
+		<RHI.D3DDebug>false</RHI.D3DDebug>
+		<RHI.Breadcrumbs>false</RHI.Breadcrumbs>
+		<RHI.DRED>false</RHI.DRED>
+		<RHI.DREDMarkersOnly>true</RHI.DREDMarkersOnly>
+		<RHI.DREDContext>false</RHI.DREDContext>
+		<RHI.Aftermath>false</RHI.Aftermath>
+		<RHI.RHIName>D3D12</RHI.RHIName>
+		<RHI.AdapterName>NVIDIA GeForce GTX 1080</RHI.AdapterName>
+		<RHI.UserDriverVersion>572.60</RHI.UserDriverVersion>
+		<RHI.InternalDriverVersion>32.0.15.7260</RHI.InternalDriverVersion>
+		<RHI.DriverDate>2-25-2025</RHI.DriverDate>
+		<RHI.FeatureLevel>SM6</RHI.FeatureLevel>
+		<RHI.GPUVendor>NVIDIA</RHI.GPUVendor>
+		<RHI.DeviceId>1B80</RHI.DeviceId>
+		<DeviceProfile.Name>Windows</DeviceProfile.Name>
+		<Platform.AppHasFocus>true</Platform.AppHasFocus>
+	</EngineData>
+	<GameData />
+</FGenericCrashContext>
